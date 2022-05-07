@@ -6,8 +6,9 @@
             <h3 class="text-center ">Administración de productos</h3>
             <div class="col-md-10 mx-auto p-3">
                 <div class="d-flex flex-row-reverse">
-                    <a href="{{ route('product.create') }}" style="background-color: #383838"
+                    <a href="{{ route('product.create') }}" style="background-color: #63B4B8"
                         class="btn mr-2 my-2 text-white">
+                        <i class="fa-solid fa-plus"></i>
                         Nuevo Producto
                     </a>
                 </div>
